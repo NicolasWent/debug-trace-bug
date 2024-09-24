@@ -1,0 +1,17 @@
+[package]
+name = "debug-trace-bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.39", features = ["full"] }
+dotenv = "0.15"
+eyre = "0.6"
+
+alloy-primitives = { version = "0.8" }
+
+alloy-provider = { version = "0.3", features = [
+    "debug-api",
+] }
+alloy-rpc-types = { version = "0.3", features = ["trace"] }
+
