@@ -19,7 +19,7 @@ This is a minimal reproduction of this bug.
 
 ## How to run
 
-- Create a .env file with an `HTTP_RPC` environment variable inside containing your http rpc.
+- Create a .env file with an `HTTP_RPC` environment variable inside containing your http rpc to an ethereum node.
 
 > cargo build
 > cd target/debug/

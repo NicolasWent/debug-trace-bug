@@ -9,7 +9,9 @@ dotenv = "0.15"
 eyre = "0.6"
 
 alloy-primitives = { version = "0.8" }
+alloy-sol-types = { version = "0.8", features = ["json"] }
 
+alloy-contract = "0.3"
 alloy-provider = { version = "0.3", features = [
     "debug-api",
 ] }
